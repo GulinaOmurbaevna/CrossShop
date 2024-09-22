@@ -1,0 +1,133 @@
+section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.cross {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+    position: relative;
+ 
+    ;
+}
+
+ .cross h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 30px;
+ }
+ .cross input {
+    border: 1px solid gray;
+    width: 250px;
+    height: 45px;
+    left: 840px;
+    border-radius: 10px;
+    opacity: 0px;
+    margin-top: 30px;
+    color:#C4C4C4;
+    
+ }
+ .cross i {
+    position: absolute;
+    right: 380px;
+    top: 45px;
+    bottom: 0;
+    color:#C4C4C4;
+ }
+ 
+ .cross input::placeholder {
+    margin-right: 10px;
+    color: green;
+    padding: 0 40px;
+    color:#C4C4C4;
+ }
+.cards {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;  
+}
+.card:hover {
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+ 
+}
+.card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;  
+  text-align: center;  
+  border: 1px solid #ddd; 
+  border-radius: 40px; 
+  padding: 16px;  
+  /* margin: 10px;   */
+  width: 210px;  
+  height: 260px;
+}
+
+.card_img img {
+    width: 133px;
+    height: 112px;
+    margin-top: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Центрируем содержимое деталей */
+  }
+
+.title {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    width: 150px;
+    height: 34px;
+    top: 225px;
+    left: 31px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.plus {
+    width: 150px;
+    height: 34px;
+    top: 225px;
+    left: 31px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.price:first-child {
+    width: 35px;
+height: 13px;
+top: 273px;
+left: 30px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 11px;
+font-weight: 500;
+line-height: 13.31px;
+text-align: left;
+color:  #BDBDBD;
+ 
+
+}
+ .num {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+    text-align: left;
+    color: black;
+ }
